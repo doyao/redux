@@ -1,10 +1,11 @@
-import Reduxs from './component/Reduxs'
+
 import store from './Redux/store'
 import {Provider} from 'react-redux'
+import LayoutPage from './Pages/LayoutPage'
 function App() {
   return (
     <Provider store={store}>
-        <Reduxs/>
+        <LayoutPage/>
     </Provider>
     
   )

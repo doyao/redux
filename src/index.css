@@ -10,4 +10,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    font-weight: bolder;
+}
+#root,.ant-layout{
+  height: 100%;
 }
